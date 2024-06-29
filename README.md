@@ -1,4 +1,3 @@
-Certainly! Here is the README file without the code:
 
 ---
 
