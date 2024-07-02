@@ -1,4 +1,3 @@
-
 ---
 
 # Simple Address Book Application
@@ -10,6 +9,7 @@ This is a simple command-line address book application that allows users to stor
 ## Features
 
 - **Add Contact**: Users can input their name, phone number, and email.
+- **Delete Contact**: Users can delete a contact by specifying their name.
 - **View Contact**: Users can view individual contact details by specifying the type of information (name, phone, or email).
 - **View All Contacts**: Users can display all stored contact information.
 - **Exit**: Users can exit the application gracefully.
@@ -19,11 +19,13 @@ This is a simple command-line address book application that allows users to stor
 1. **Run the Application**: Execute the script to start the address book application.
 2. **Input Contact Information**: Enter your name, phone number, and email when prompted.
 3. **Interact with the Address Book**:
-    - Enter `Name` or `name` to display the stored name.
-    - Enter `Phone` or `phone` to display the stored phone number.
-    - Enter `Email` or `email` to display the stored email.
+    - Enter `add` to add a new contact.
+    - Enter `delete` to delete a contact by name.
+    - Enter `name` to display all stored names.
+    - Enter `phone` to display all stored phone numbers.
+    - Enter `email` to display all stored emails.
     - Enter `all` to display all stored contact information.
-    - Enter `exit` or `Exit` to terminate the application.
+    - Enter `exit` to terminate the application.
 
 ## Contributions
 
