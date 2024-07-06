@@ -15,8 +15,11 @@ print("Write 'name', 'phone', or 'email' to display each.")
 print("Write 'all' to display all contacts.")
 print("Write 'exit' to end the program.")
 
+def generate_short_uuid():
+    return str(uuid.uuid4())[:8]  
+
 def add_contact():
-    uid = str(uuid.uuid4())
+    uid = generate_short_uuid()
     name = input("Please enter the Name: ")
     phone = input("Please enter the Phone Number: ")
     email = input("Please enter the Email: ")
